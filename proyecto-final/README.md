@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un e-Commerce de Joyeria, realizado con Firebase, Tailwind y React-Dom.
 
-Currently, two official plugins are available:
+En "Inicio" hay unicamente un saludo, en "Productos" se encuentran todos los productos, y luego hay distintas categorias en las que se separan. Clickeando una tarjeta se va al detalle del producto donde se puede agregar al carro, y desde esa vista acceder al carro.
+Desde el carro se pueden sumar productos o quitarlos, e ir a pagar, que te lleva a un formulario donde te pide una direccion de entrega.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En el archivo .env puse la apikey de mi firebase pero no lo cambien en "firebaseconfig.js" ni lo puse en el "gitignore", solo lo coloque para que exista el archivo.
+

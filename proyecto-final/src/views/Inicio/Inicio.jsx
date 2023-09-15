@@ -5,7 +5,7 @@ const Inicio = () => {
     return (
         <div className="welcomeContainer">
         <div className="welcome">
-            <h1>Bienvenidos a Ópalo</h1>
+            <h1 className="saludo">Bienvenidos a Ópalo</h1>
             <h3>Excelencia en joyería</h3>
         </div>
         </div>
